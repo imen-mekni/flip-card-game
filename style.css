@@ -1,0 +1,135 @@
+
+
+
+section {
+    margin: 20px;
+  }
+  
+  
+  .level-button:hover {
+    background-color: #2F4F4F;
+  }
+  section {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .level-section {
+    text-align: center;
+  }
+  body {
+    background-image: url() ;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;}
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #startbutton  {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #693a79;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    animation: pulse 2s infinite;
+  }
+  #startbutton:hover {
+    background-color: #2F4F4F;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+#return-button {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #693a79;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  margin-left: 30px;
+}
+#return-button:hover {
+  background-color: #2F4F4F;
+}
+
+#refresh {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #693a79;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  margin-left: 30px;
+ 
+}
+#refresh:hover {
+  background-color: #2F4F4F;
+}
+#timer{
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 80px;
+}
+
+#refresh, #return-button {
+  position: relative;
+  top: -100px;
+}
+
+#wrongattempts{
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 30px;
+  text-align: right;
+  margin-right: 80px;
+} 
